@@ -1,0 +1,10 @@
+register===================
+url:http://127.0.0.1:8000/api/register/method:postbody:{"username","email","password"}logintodo create
+============================================
+url:http://127.0.0.1:8000/api/todos/method:postbody:{"name"}list todos
+==============================================
+url:http://127.0.0.1:8000/api/todos/method:getedit todo
+==============================================
+url:http://127.0.0.1:8000/api/todos/{id}/body:{}method:putdelete todo
+===============================================
+url:http://127.0.0.1:8000/api/todos/{id}/method:delete
